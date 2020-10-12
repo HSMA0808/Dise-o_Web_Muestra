@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <link rel= "stylesheet" href= "CSS/Bootstrap.css" >
+    <link rel= "stylesheet" href= "CSS/estilos.css" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript" src="JS/scripts.js"></script>
+    <title>HM COSMETICS</title>
+  </head>
+  <body>
+    <nav id = "navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">HM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Registro.html">Registro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Catalogo
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Linea 1</a>
+                <a class="dropdown-item" href="#">Linea 2</a>
+                <a class="dropdown-item" href="#">Linea 3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Linea 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button id = "btnBuscar" class="btn btn-dark my-2 my-sm-0">Buscar</button>
+            <button id = "btnColor" style = "margin: 2px" class = "btn btn-light"type="button" name="button">Color</button>
+            <button id = "btnOcultar" class = "btn btn-primary" type="button" name="button">slide</button>
+          </form>
+        </div>
+      </nav>
+    <div id = "" class="container-fluid">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item image-responsive active">
+              <img class="carrusel d-block w-100 " src="image/HM.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item image-responsive">
+              <img class="carrusel d-block w-100" src="image/HM2.jpg" alt="Second slide">
+            </div>
+          </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="offset-md-1 col-md-5 ">
+              <div style = "position: absolute;"class = "titulos"><h2 class = "titulos">Producto X</h2></div>
+              <section style = "margin-top: 60px;">
+                <p class = "text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+            </div>
+      </div>
+      <div class="row">
+          <div class="offset-md-6 col-md-5 ">
+            <div style = "position: absolute;"class = "titulos"><h2>Producto Y</h2></div>
+            <section style = "margin-top: 60px;">
+              <p class = "text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+          </div>
+      </div>
+    </div>
+  </body>
+    <br>
+    <br>
+    <div style="position: relative; height: 400px; width:100%;"></div>
+  <footer style = "position: absolute; bottom: 0px;" class = "footer container-fluid" align = "Center">
+    <div class = "separador"></div>
+    <h7 class = "separador">Todos los derechos reservados 2020 &copy</h7>
+    <div class = "separador"></div>
+    <div align = "center" class="">
+      <span>
+        <button id = "btnInstagram" class = "btn socialmedia"><img class = "imagemedia" src = "image/instagram.png"></button>
+        <button id = "btnFacebook" class = "btn socialmedia"><img class = "imagemedia" src = "image/facebook.png"></button>
+        <button id = "btnGmail" class = "btn socialmedia"><img src = "image/gmail.png" style = "width: 40px; height: 30px;"></button>
+      </span>
+    </div><div class = "separador">
+    </div>
+  </footer>
+  <script type = "text/javascript" src = "JS/jquery-3.5.1.min.js"></script>
+  <script type = "text/javascript" src = "JS/jQuery-1.js"></script>
+  <script type = "text/javascript" src = "JS/index-animated.js"> </script>
+  <script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity= "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin= "anonymous" ></script>
+</html>

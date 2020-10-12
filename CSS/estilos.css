@@ -1,0 +1,75 @@
+.Cabezote
+{
+  font-style: bold;
+  color: black;
+}
+
+body
+{
+  position: relative;
+}
+
+.Encabezado
+{
+  position: relative;
+  background-color: #F5F6F6;
+  width: 100%;
+  height: 93px;
+}
+.carrusel
+{
+  height: 470px;
+  width:100%;
+}
+.Contenedor
+{
+  position: relative;
+  border: solid 1px #EAF0F1;
+  border-radius: 6px;
+  color:black;
+}
+
+footer
+{
+  background: #303131;
+  color: white;
+  position: relative;
+}
+.bg-black
+{
+  background: black;
+}
+.navbar-black
+{
+  background: black;
+}
+.navbar-black
+{
+  color:white;
+}
+.separador
+{
+  height: 55px
+}
+.socialmedia
+{
+  color: white;
+  background: #303131;
+  height: 60px;
+  width: 60px;
+}
+.imagemedia
+{
+  width: 40px;
+  height: 40px;
+}
+.clients
+{
+  height: 400px;
+  border-radius: 5px;
+}
+.circulo
+{
+  border-radius: 100%;
+  height: 200px;
+}
